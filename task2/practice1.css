@@ -1,0 +1,34 @@
+.profilephoto {
+  border-radius: 50%;
+  align-self: center;
+  margin: auto;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  background-color: #f2f2f2
+}
+
+
+h1 
+{
+  font-weight: bold;
+}
+
+h2
+{
+  font-weight: 300;
+}
+
+.section {
+  flex: 1; 
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+.column {
+  flex: 1;
+  padding: 20px;
+  border: 1px solid #ccc;
+  display: grid;
+}
